@@ -1,7 +1,7 @@
 name: Workflow Events
 
 on:
-    push:
+    # push:
     # schedule:
     #     - cron: '*/5 * * * *' # Runs every day at midnight UTC
     workflow_dispatch:
