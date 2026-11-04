@@ -2,8 +2,8 @@ name: Workflow Events
 
 on:
     push:
-    schedule:
-        - cron: '*/5 * * * *' # Runs every day at midnight UTC
+    # schedule:
+    #     - cron: '*/5 * * * *' # Runs every day at midnight UTC
     workflow_dispatch:
 
 jobs:
